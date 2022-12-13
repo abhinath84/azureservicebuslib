@@ -9,7 +9,8 @@
     "build": "tsc",
     "postbuild": "",
     "build:watch": "tsc -w",
-    "test": "mocha dist/tests"
+    "test": "mocha dist/tests",
+    "test:watch": "nodemon --exec mocha dist/tests -R min"
   },
   "keywords": [],
   "author": "",
